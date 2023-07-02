@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        int a = 3;
-
-        a.
+        Calculator.Implimemtare();
+        Temperatura.ConversiaCtoF();
+        MasaCorporala.CalculareaIMC();
     }
 }

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia5_1", "Lectia5_1\Lectia5_1.csproj", "{892F22B8-C733-4ADB-BB51-CC2FDA04B0B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia5_1", "Lectia5_1\Lectia5_1.csproj", "{892F22B8-C733-4ADB-BB51-CC2FDA04B0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1", "Homework_1\Homework_1.csproj", "{D37D5771-510E-4D99-8854-D98B38FA12CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework_1", "Homework_1\Homework_1.csproj", "{D37D5771-510E-4D99-8854-D98B38FA12CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia5_2", "Lectia5_2\Lectia5_2.csproj", "{0098BA21-9454-48AC-87EF-AC3EC8FFC1AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia5_2", "Lectia5_2\Lectia5_2.csproj", "{0098BA21-9454-48AC-87EF-AC3EC8FFC1AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia5_3", "Lectia5_3\Lectia5_3.csproj", "{8961F980-689A-4932-93D1-F36184528F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia5_3", "Lectia5_3\Lectia5_3.csproj", "{8961F980-689A-4932-93D1-F36184528F9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia5_4", "Lectia5_4\Lectia5_4.csproj", "{A0A16E3E-3CB3-42D0-B284-21D2AE9F6B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia5_4", "Lectia5_4\Lectia5_4.csproj", "{A0A16E3E-3CB3-42D0-B284-21D2AE9F6B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4_quiz", "Lesson4_quiz\Lesson4_quiz.csproj", "{1B3EB528-D960-4619-A776-06F22A10E6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A0A16E3E-3CB3-42D0-B284-21D2AE9F6B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0A16E3E-3CB3-42D0-B284-21D2AE9F6B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0A16E3E-3CB3-42D0-B284-21D2AE9F6B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3EB528-D960-4619-A776-06F22A10E6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3EB528-D960-4619-A776-06F22A10E6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3EB528-D960-4619-A776-06F22A10E6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3EB528-D960-4619-A776-06F22A10E6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
