@@ -14,51 +14,48 @@ class Program
 {
     enum OptiunileDeMeniu
     {
-        Supa,
-        SalataCaesar,
-        SalataGreceasca,
-        Inghetata,
+        Supa = 1,
+        SalataCaesar = 2,
+        SalataGreceasca = 3,
+        Inghetata = 4,
     }
-       static void Main()
+    static void Main()
     {
-        Console.WriteLine("Introduceti numarul de ordine a optiunii de meniu");
-        Console.WriteLine("1 - Supa");
-        Console.WriteLine("2 - Salata Caesar");
-        Console.WriteLine("3 - Salata Greceasca");
-        Console.WriteLine("4 - Inghetata");
-
         while (true)
         {
-       
-        int alegerea = int.Parse(Console.ReadLine());
-        
-        switch (alegerea)
-        {
-            case 1:
-                Console.WriteLine("Supa");
-                Console.WriteLine("Lorem ipsum dolor sit amet, consectetur adipiscing elit");
-                Console.WriteLine("45 MDL");
-                break;
-            case 2:
-                Console.WriteLine("Salata Caesar");
-                Console.WriteLine("Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua");
-                Console.WriteLine("80 MDL");
-                break;
-            case 3:
-                Console.WriteLine("Salata Greceasca");
-                Console.WriteLine("Ut enim ad minim veniam");
-                Console.WriteLine("69 MDL");
-                break;
-            case 4:
-                Console.WriteLine("Inghetata");
-                Console.WriteLine("Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat");
-                Console.WriteLine("33 MDL");
-                break;
-            default:
-                Console.WriteLine("Optiunea de meniu selectata nu e disponibila");
-                break;
+            Console.WriteLine("Meniu: ");
+            Console.WriteLine("1 - Supa");
+            Console.WriteLine("2 - Salata Caesar");
+            Console.WriteLine("3 - Salata Greceasca");
+            Console.WriteLine("4 - Inghetata");
+
+            Console.WriteLine("\nIntroduceti optiunea: ");
+            int optiune = int.Parse(Console.ReadLine());
+
+            Console.Clear();
+
+            switch (optiune)
+            {
+                case (int)OptiunileDeMeniu.Supa:
+                    Console.WriteLine("Supa:\n\tLorem ipsum dolor sit amet, consectetur adipiscing elit\n\t45 MDL\n");
+                    break;
+                case (int)OptiunileDeMeniu.SalataCaesar:
+                    Console.WriteLine("Salata Caesar::\n\tSed do eiusmod tempor incididunt ut labore et dolore magna aliqua\n\t80 MDL\n");
+                    Console.WriteLine("Pret: 203\n");
+                    break;
+                case (int)OptiunileDeMeniu.SalataGreceasca:
+                    Console.WriteLine("Salata Greceasca:\n\tUt enim ad minim veniam\n\t69 MDL\n");
+                    Console.WriteLine("Pret: 203\n");
+                    break;
+                case (int)OptiunileDeMeniu.Inghetata:
+                    Console.WriteLine("Inghetata:\n\tQuis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\n\t33 MDL\n");
+                    Console.WriteLine("Pret: 203\n");
+                    break;
+                default:
+                    Console.WriteLine("Scuzati. Optiunea de meniu selectata nu e disponibila.\n");
+                    break;
+            }
         }
-        }
-        }
+    }
 }
- 
+

@@ -6,24 +6,23 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Introduceti nota Dmv (in baremul 1-10): ");
-        int nota = int.Parse(Console.ReadLine());
-        if (nota == 10)
-        {
-            Console.WriteLine("Excelent");
-        }
-        else if (nota == 9 || nota == 8)
-        {
-            Console.WriteLine("Bun");
-        }
-        else if (nota >= 5 && nota <= 7)
-        {
-            Console.WriteLine("Suficient");
-        }
-        else 
-        {
-            Console.WriteLine("Necalificat");
-        }
+        Console.Write("Introduceti nota dvs. (in baremul 1-10): ");
+        var nota = double.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Calificativul dvs. e {DeterminaCalificativul(nota)}");
+    }
+
+    static string DeterminaCalificativul(double nota)
+    {
+        if (nota > 0 && nota < 5) return "Necalificat";
+
+        if (nota >= 5 && nota < 8) return "Suficient";
+
+        if (nota >= 8 && nota < 10) return "Bun";
+
+        if (nota == 10) return "Excelent";
+
+        return "Calificativul nu poate fi determinat. Introdu o nota valida.";
     }
 }
 
