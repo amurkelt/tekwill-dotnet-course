@@ -33,6 +33,5 @@ class Program
                 Console.Write($"{interval[i]} ");
             }
         }
-
     }
 }
