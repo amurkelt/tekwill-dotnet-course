@@ -7,7 +7,10 @@ class Program
 {
     static void Main()
     {
-        var matrice = new int[8, 8];
+        int nrLinii = 8;
+        int nrColoane = 8;
+
+        int[,] matrice = new int[nrLinii, nrColoane];
         
         for (int i = 0; i < matrice.GetLength(0); i++) 
         { 
@@ -17,11 +20,7 @@ class Program
                 {
                     matrice[i, j] = 1; // celula alba
                 }
-                //else
-                //{
-                //    matrice[i, j] = 0; // celula neagra
-                //}                
-            }
+           }
         }
 
         // Afisarea la ecran
