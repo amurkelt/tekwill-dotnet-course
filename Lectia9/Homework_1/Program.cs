@@ -11,22 +11,34 @@ class Program
         int arrayEnd = 0;
         int intervalLength = 0;
 
-        do
-        {
-            Console.WriteLine("Introdu un numar de inceput al intervalului");
-            arrayStart = int.Parse(Console.ReadLine());
-            Console.WriteLine("Introdu un numar de sfarsit al intervalului");
-            arrayEnd = int.Parse(Console.ReadLine());                      
-        }
-        while (arrayStart >= arrayEnd);
+        Console.WriteLine("Introdu un numar de inceput al intervalului");
+        arrayStart = int.Parse(Console.ReadLine());
+        Console.WriteLine("Introdu un numar de sfarsit al intervalului");
+        arrayEnd = int.Parse(Console.ReadLine());                      
 
-        intervalLength = arrayEnd - arrayStart + 1;
+        if(arrayStart <= arrayEnd)
+        {
+            intervalLength = arrayEnd - arrayStart + 1;
+        }
+        else
+        {
+            intervalLength = -(arrayEnd - arrayStart - 1);
+        }
+
         int[] interval = new int[intervalLength];
         Console.WriteLine("Urmatoare numere in intervalul dat sunt pare: ");
 
         for (int i = 0; i < intervalLength; i++)
         {
-            interval[i] = arrayStart + i;
+            
+            if (arrayStart <= arrayEnd)
+            {
+                interval[i] = arrayStart + i;
+            }
+            else
+            {
+                interval[i] = arrayStart - i;
+            }
 
             if (interval[i] % 2 == 0)
             {

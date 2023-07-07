@@ -15,11 +15,11 @@ class Program
             Console.WriteLine("Introduceti numere de la tastatura \nValoarea 0 o sa incheie program");
             breakpoint = int.Parse(Console.ReadLine());
             Console.Clear();
+        }
 
-            if (breakpoint == 0)
-            {
-                Console.WriteLine("Mater has given Dobby a sock. Master has presented Dobby with clothes. Dobby is free.");
-            }
+        if (breakpoint == 0)
+        {
+            Console.WriteLine("Mater has given Dobby a sock. Master has presented Dobby with clothes. Dobby is free.");
         }
     }
 }
