@@ -25,8 +25,8 @@ Lesson | Topic | Hours
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
-1 | Get familiar to git technology | 2
-2 | Hands on experience with git and GitHub | 2
+1 | Get familiar to Git technology | 2
+2 | Hands on experience with Git and GitHub | 2
 | | | Total: 4 hours
 
 ## Module III - Object-oriented programming
@@ -66,5 +66,5 @@ Lesson | Topic | Hours
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
-1 | Get to know more about the industry. Preparing for the interview. What else to learn & how to land that job internship position | 2
+1 | Get to know more about the industry. Preparing for the interview. What else to learn & how to land that job or internship position | 2
 | | | Total: 2 hours
