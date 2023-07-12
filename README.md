@@ -1,4 +1,12 @@
-**Module I - Language and framework fundamentals**
+# Index
+- [Module I - Language and framework fundamentals](#module-i---language-and-framework-fundamentals)
+- [Module II - Git and GitHub fundamentals](#module-ii---git-and-github-fundamentals)
+- [Module III - Object-oriented programming](#module-iii---object-oriented-programming)
+- [Module IV - Unit testing](#module-iv---unit-testing)
+- [Module V - Let's actually do something with that](#module-v---let-s-actually-do-something-with-that)
+- [Module VI - Getting the full picture](#module-vi---getting-the-full-picture)
+
+## Module I - Language and framework fundamentals
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
@@ -13,7 +21,7 @@ Lesson | Topic | Hours
 9 | Exceptions and exception handling | 2
 | | | Total: 20 hours
 
-**Module II - Git and GitHub fundamentals**
+## Module II - Git and GitHub fundamentals
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
@@ -21,7 +29,7 @@ Lesson | Topic | Hours
 2 | Hands on experience with git and GitHub | 2
 | | | Total: 4 hours
 
-**Module III - Object-oriented programming**
+## Module III - Object-oriented programming
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
@@ -35,7 +43,7 @@ Lesson | Topic | Hours
 8 | SOLID principles | 4
 | | | Total: 26 hours
 
-**Module IV - Unit testing**
+## Module IV - Unit testing
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
@@ -43,7 +51,7 @@ Lesson | Topic | Hours
 2 | Introduction to xUnit. Getting hands on experience with unit testing| 4
 | | | Total: 6 hours
 
-**Module V - Let's actually do something with that**
+## Module V - Let's actually do something with that
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
@@ -54,7 +62,7 @@ Lesson | Topic | Hours
 5 | Build your first Web API. CRUD Application | 4
 | | | Total: 12 hours
 
-**Module VI - Getting the full picture**
+## Module VI - Getting the full picture
 
 Lesson | Topic | Hours 
 ------------ | ------------ | ------------
