@@ -1,4 +1,4 @@
-﻿class Program
+﻿class ParImpar
 {
     static void Main(string[] args)
     {

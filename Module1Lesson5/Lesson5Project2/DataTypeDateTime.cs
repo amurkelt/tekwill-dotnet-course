@@ -1,16 +1,16 @@
 ﻿using System.Globalization;
 
-class Program
+class DataTypeDateTime
 {
     static void Main()
     {
-        var s = DateTime.UnixEpoch;
+        var s = System.DateTime.UnixEpoch;
 
-        Console.WriteLine($"UTC Date time (Greenwhich): {DateTime.UtcNow}");
-        Console.WriteLine($"Local time (Chisinau): {DateTime.Now}");
+        Console.WriteLine($"UTC Date time (Greenwhich): {System.DateTime.UtcNow}");
+        Console.WriteLine($"Local time (Chisinau): {System.DateTime.Now}");
 
-        var yesterday = new DateTime(2023, 6, 27, 7, 20, 30);
-        var tomorrow = new DateTime(2023, 6, 29, 7, 20, 30);
+        var yesterday = new System.DateTime(2023, 6, 27, 7, 20, 30);
+        var tomorrow = new System.DateTime(2023, 6, 29, 7, 20, 30);
 
         TimeSpan timeInterval = tomorrow - yesterday;
 
@@ -22,7 +22,7 @@ class Program
         // yyyy-MM-dd hh:mm:ss
         Console.WriteLine("Introdu data nasterii : ");
 
-        var dataNasterii = DateTime.ParseExact(
+        var dataNasterii = System.DateTime.ParseExact(
             "2023-01-01 09:09:09",
             "yyyy-MM-dd hh:mm:ss",
             CultureInfo.InvariantCulture);

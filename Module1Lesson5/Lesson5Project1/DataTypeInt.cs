@@ -1,4 +1,4 @@
-﻿class Program
+﻿class DataTypeInt
 {
     static void Main(string[] args)
     {
