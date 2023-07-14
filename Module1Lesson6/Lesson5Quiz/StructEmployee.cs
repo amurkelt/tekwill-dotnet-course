@@ -4,7 +4,7 @@
     public double salary;
 }
 
-public class Program
+public class StructEmployee
 {
     static void Main()
     {

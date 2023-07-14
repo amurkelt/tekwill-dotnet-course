@@ -7,7 +7,7 @@
 // Comment: CTRL + K + C
 // Uncomment: CTRL + K + U
 
-public class Program
+public class UserAge
 {
     static void Main()
     {

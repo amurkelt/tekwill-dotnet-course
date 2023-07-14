@@ -1,4 +1,4 @@
-﻿class Program
+﻿class PasswordValidation
 {
     static void Main(string[] args)
     {

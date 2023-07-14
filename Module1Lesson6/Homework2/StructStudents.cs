@@ -33,7 +33,7 @@ struct Student
     }
 }
 
-public class Program
+public class StructStudents
 {
     static void Main()
     {
