@@ -3,7 +3,7 @@
 //2.	Utilizați un array bidimensional pentru a reprezenta tablă de șah.
 //3.	Atribuiți valori corespunzătoare celulelor albe și negre în tablă (1 – alb, 0 – negru)
 //4.    Afișați tablă de șah la ecran.
-class Program
+class ChessBoard
 {
     static void Main()
     {

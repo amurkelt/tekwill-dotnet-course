@@ -6,7 +6,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-class Program
+class EmployeesDatabase
 {
     struct Angajati
     {

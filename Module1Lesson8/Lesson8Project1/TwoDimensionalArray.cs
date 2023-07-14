@@ -1,4 +1,4 @@
-﻿class Program
+﻿class TwoDimensionalArray
 {
     static void Main()
     {

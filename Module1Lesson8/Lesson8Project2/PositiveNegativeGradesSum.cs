@@ -1,4 +1,4 @@
-﻿class Program
+﻿class PositiveNegativeGradesSum
 {
     static void Main(string[] args)
     {

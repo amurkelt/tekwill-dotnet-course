@@ -4,7 +4,7 @@
 // 3.	Utilizați un array unidimensional pentru a stoca notele.
 // 4.	Afișați toate notele la ecran.
 // 5.	Calculați și afișați media notelor.
-class Program
+class SingleDimensionalArray
 {
     static void Main()
     {

@@ -1,4 +1,4 @@
-﻿class Program
+﻿class BubbleSort
 {
     static void Main()
     {
