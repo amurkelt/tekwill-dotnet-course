@@ -9,7 +9,7 @@
 // 5.   Prindeți și gestionați corespunzător fiecare excepție aruncată, afișând un mesaj de eroare corespunzător la ecran.
 using System;
 
-class Program
+class LoginAuthentication
 {
     struct UserCredentials
     {
