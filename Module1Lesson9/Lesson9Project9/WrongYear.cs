@@ -1,6 +1,6 @@
 ﻿using Exceptions;
 
-namespace Lectia9_9
+namespace WrongYear
 {
     class Pr
     {

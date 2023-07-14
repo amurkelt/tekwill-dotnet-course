@@ -4,7 +4,7 @@
 // 3.	Întrerupeți bucla atunci când utilizatorul introduce valoarea 0 și afișați un mesaj de încheiere.
 using System.Diagnostics.Metrics;
 
-class Program
+class UsingWhile
 {
     static void Main()
     {

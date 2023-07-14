@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Xml.Serialization;
 
-class Program
+class ForeachPersonsDatabase
 {
     struct Persoana
     {

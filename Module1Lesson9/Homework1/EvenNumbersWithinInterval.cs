@@ -3,7 +3,7 @@
 // 2.	Solicitați utilizatorului să introducă un număr de început și un număr de sfârșit al intervalului.
 // 3.	Utilizați o buclă for pentru a itera prin toate numerele din interval.
 // 4.	În fiecare iterație, verificați dacă numărul este par și, dacă este, afișați-l la ecran.
-class Program
+class EvenNumbersWithinInterval
 {
     static void Main()
     {
