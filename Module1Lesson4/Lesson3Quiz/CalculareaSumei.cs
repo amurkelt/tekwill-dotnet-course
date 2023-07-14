@@ -2,7 +2,7 @@
 
 namespace HelloTekwill
 {
-    class Program2
+    class CalculareaSumei
     {   
         static void Main()
         {
