@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-class Program
+class SemesterAverages
 {
     static void Main()
     {

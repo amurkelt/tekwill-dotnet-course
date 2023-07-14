@@ -10,7 +10,7 @@
 // •	Dacă opțiunea de meniu introdusă nu este validă (adică nu este definită în enumerare), afișați un mesaj de eroare.
 using static System.Net.Mime.MediaTypeNames;
 
-class Program
+class RestaurantMenu
 {
     enum OptiunileDeMeniu
     {

@@ -2,7 +2,7 @@
 // •	Solicitați utilizatorului să introducă nota sa de la un test.
 // •	Utilizați o instrucțiune if-else pentru a evalua calificativul în funcție de nota introdusă.
 // •	Afișați calificativul corespunzător la ecran (de exemplu, "Excelent" pentur 10, "Bun" pentru 8-9, "Suficient" pentru 5-7, "Necalificat" pentru 1-4).
-class Program
+class GradeEvaluation
 {
     static void Main()
     {

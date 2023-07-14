@@ -4,7 +4,7 @@
 // •	Afișați un mesaj corespunzător în funcție de rezultatul verificării.
 using System.Threading.Channels;
 
-class Program
+class AgeOfMajority
 { 
     static void Main()
     {

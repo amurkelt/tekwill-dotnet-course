@@ -1,4 +1,4 @@
-﻿class Program
+﻿class PhoneBook
 {
     struct Contact
     {
