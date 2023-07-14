@@ -13,7 +13,7 @@ Lesson | Topic | Hours
 1 | Introduction to .NET Framework, .Net Core, and C# programming language | 2
 2 | Setting up the environment. Get familiarized with Visual Studio | 2
 3 | The structure of a program. Conventions. Compilation | 2
-4 | Basics of C# programming language | 2
+4 | Basics of C# programming language | 4
 5 | Data types | 2
 6 | Conditional operators | 2
 7 | Unidimensional and bidimensional arrays | 2
