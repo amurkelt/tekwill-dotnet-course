@@ -1,0 +1,29 @@
+- Care este utilitatea unui sistem de control a versiunii?
+- Care este comanda git pentru a crea un repozitoriu nou?
+- Cum sunt inregistrate modificarile in cadrul sistemului git?
+- Care este comanda pentru a vedea care dintre fisiere au fost modificate?
+- Care este comanda pentru a include TOATE fisierele modificate in urmatorul commit? (A le trackui)
+- Care este comanda pentru a crea un commit?
+- Ce reprezinta un branch?
+- Care este comanda pentru a crea un branch?
+- Care este comanda pentru a accesa un branch?
+
+Git cheatsheet:
+- git init		Initializeaza un repozitoriu
+- git status		Vizualizarea fisierelor modificate (Staging area)
+- git add.		Includerea tuturor fisierelor in staging area
+- git commit -m "" 	Crearea unui comit. -m -> pentru indicarea unui mesaj.
+- git branch "name"	Crearea new branch
+
+Creare branch:
+Optiunea 1:
+- git branch new-branch (creare branch)
+- git checkout new-branch (Ne mutam pe branch-ul nou creat)
+
+Optiunea 2:
+- git checkout -b new-branch (creare branch + mutare pe branch-ul nou creat)
+
+File statuses in git:
+- Untracked (git status -> Rosu)
+- Staged (dupa git add. || git status -> Verde. Inclus in staging area)
+- Commited (git status -> Lipseste)
