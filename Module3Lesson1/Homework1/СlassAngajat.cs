@@ -36,7 +36,7 @@ namespace ClassEmployees
             Console.WriteLine();
         }
     }
-    class Program
+    class СlassAngajat
     {
         static void Main()
         {
