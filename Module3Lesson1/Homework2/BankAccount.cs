@@ -14,6 +14,7 @@
 
 // Creați o persoană și un cont bancar care îi aparține. Creati căteva tranzacții (alimentare cont sau extragere fond) și afișați la ecran solul curent, după efectuarea tranzacțiilor.
 // Notă: Istoricul tranzacțiilor trebuie să fie stocat.
+using Homework2;
 using System;
 
 namespace BankAccount
@@ -21,54 +22,50 @@ namespace BankAccount
         public class BankAccountClass
         {
         // Variabile membru (câmpuri)
-        public DateTime creationDate;
+        public readonly DateTime creationDate;
         public string person;
-        public string accountNumber;
+        public readonly string accountNumber;
         public string currency;
         public string pin;
-        public double balance;
-        public string[] transactionHistory = new string[100];
-        public string transaction;
-        public int transactionsCounter = 0;
+        public decimal suma;
+        private List<Tranzactie> istoricTranzactii;
 
         // Constructor
-        public BankAccountClass(DateTime creationDate, string person, string accountNumber, string currency, string pin, double balance)
+        public BankAccountClass(string person, string accountNumber, string currency, string pin)
         {
-            this.creationDate = creationDate;
             this.person = person;
             this.accountNumber = accountNumber;
             this.currency = currency;
             this.pin = pin;
-            this.balance = balance;            
+
+            istoricTranzactii = new List<Tranzactie>();
+            creationDate = DateTime.UtcNow;
         }
 
         // Metode
         public void Deposit()
         {            
-            Console.WriteLine($"Introdu summa in {currency} pentru alimentare cont: ");
-            transaction = Console.ReadLine();
-            balance = balance + double.Parse(transaction);                       
-            transactionHistory[transactionsCounter] = ($"{DateTime.Now} Alimentare cont  -  {transaction} {currency}");
+            Console.Write($"Introdu summa in {currency} pentru alimentare cont: ");
+            suma = decimal.Parse(Console.ReadLine());
+            var tranzactie = new Tranzactie(suma);
+            istoricTranzactii.Add(tranzactie);
+                        
+            Console.WriteLine($"Soldul curent: {showBalance()}");
             Console.WriteLine();
-            transactionsCounter++;
         }
         public void Withdrawl()
         {            
-            Console.WriteLine($"Introdu summa in {currency} pentru extragerea fond: ");
-            transaction = Console.ReadLine();
-            balance = balance - double.Parse(transaction);            
-            transactionHistory[transactionsCounter] = ($"{DateTime.Now} Extragerea fond  -  {transaction} {currency}");
-            transactionsCounter++;
+            Console.Write($"Introdu summa in {currency} pentru extragerea fond: ");
+            suma = decimal.Parse(Console.ReadLine());
+            var tranzactie = new Tranzactie(suma);
+            istoricTranzactii.Add(tranzactie);
+
+            Console.WriteLine($"Soldul curent: {showBalance()}");
             Console.WriteLine();
         }
-        public void showBalance()
+        public decimal showBalance()
         {
-            Console.WriteLine("Istoricul tranzactiilor: ");
-            for (int i = 0; i < transactionsCounter; i++)
-            {
-                Console.WriteLine(transactionHistory[i]);
-            }
-            Console.WriteLine($"{DateTime.Now} Soldul curent este: {balance} {currency}");
+            return istoricTranzactii.Sum(t => t.suma);
         }
     }
 
@@ -76,11 +73,10 @@ namespace BankAccount
     {
         static void Main()
         {
-            BankAccountClass person = new BankAccountClass(DateTime.Now, "John Doe", "123456", "EUR", "4321", 0);
+            BankAccountClass person = new BankAccountClass("John Doe", "123456", "EUR", "4321");
             person.Deposit();
             person.Withdrawl();
             person.Deposit();
-            person.showBalance();
         }
     }
 }
