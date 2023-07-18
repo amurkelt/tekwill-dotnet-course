@@ -1,6 +1,4 @@
-﻿using System.Runtime.ConstrainedExecution;
-
-public class Program
+﻿public class Methods
 {
     static void Main()
     {
