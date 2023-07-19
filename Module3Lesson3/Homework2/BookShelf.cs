@@ -10,3 +10,19 @@
 //5.	Testați clasa Carte în funcția Main a programului.
 //•	Creați un obiect de tip Carte, specificând valorile pentru titlu, autor, anul de publicare și numărul de pagini.
 //•	Apelați metoda AfisareDetalii pentru a afișa detaliile cărții.
+using Homework2;
+
+class BookShelf
+{
+    static void Main()
+    {
+        var newbook = new Book()
+        {
+            Title = "Fascinating Sci-Fi",
+            Author = "Luke Skywalker",
+            Year = DateOnly.FromDateTime(DateTime.Now),
+            Pages = 243
+        };
+        newbook.ShowDetails();
+    }
+}
