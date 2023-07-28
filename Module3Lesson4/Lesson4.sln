@@ -7,15 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1", "Homework1\Home
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2", "Homework2\Homework2.csproj", "{D2849089-DED0-4E19-8C7C-7A073DC66318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15Project1", "Lesson15Project1\Lesson15Project1.csproj", "{C8937146-E250-4863-94A5-40AFEB2100F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15Project1", "Lesson15Project1\Lesson15Project1.csproj", "{C8937146-E250-4863-94A5-40AFEB2100F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15Project2", "Lesson15Project2\Lesson15Project2.csproj", "{1FFF0A61-BBB0-4B34-BB46-7E64163A905C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15Project2", "Lesson15Project2\Lesson15Project2.csproj", "{1FFF0A61-BBB0-4B34-BB46-7E64163A905C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15Project2_class_library", "Lesson15Project2_class_library\Lesson15Project2_class_library.csproj", "{39384C95-C040-462D-93C2-30D5A9D9C34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15Project2_class_library", "Lesson15Project2_class_library\Lesson15Project2_class_library.csproj", "{39384C95-C040-462D-93C2-30D5A9D9C34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15Project3", "Lesson15Project3\Lesson15Project3.csproj", "{13C3841B-00BB-4891-8202-AB8AC74E2542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15Project3", "Lesson15Project3\Lesson15Project3.csproj", "{13C3841B-00BB-4891-8202-AB8AC74E2542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15Project4_logger", "Lesson15Project4_logger\Lesson15Project4_logger.csproj", "{5561905A-0128-427F-9AD7-DF8CCE257C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15Project4_logger", "Lesson15Project4_logger\Lesson15Project4_logger.csproj", "{5561905A-0128-427F-9AD7-DF8CCE257C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Homework3.csproj", "{851D0E18-47AC-40CF-81F9-AB3EF10E3192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson16Project1", "Lesson16Project1\Lesson16Project1.csproj", "{BE9A0ECB-6A05-420B-872F-9EE2023AB3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson16Project2", "Lesson16Project2\Lesson16Project2.csproj", "{00470317-B0FA-4E7C-8D8D-421A039B20CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{5561905A-0128-427F-9AD7-DF8CCE257C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5561905A-0128-427F-9AD7-DF8CCE257C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5561905A-0128-427F-9AD7-DF8CCE257C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851D0E18-47AC-40CF-81F9-AB3EF10E3192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851D0E18-47AC-40CF-81F9-AB3EF10E3192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851D0E18-47AC-40CF-81F9-AB3EF10E3192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851D0E18-47AC-40CF-81F9-AB3EF10E3192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9A0ECB-6A05-420B-872F-9EE2023AB3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9A0ECB-6A05-420B-872F-9EE2023AB3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9A0ECB-6A05-420B-872F-9EE2023AB3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9A0ECB-6A05-420B-872F-9EE2023AB3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00470317-B0FA-4E7C-8D8D-421A039B20CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00470317-B0FA-4E7C-8D8D-421A039B20CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00470317-B0FA-4E7C-8D8D-421A039B20CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00470317-B0FA-4E7C-8D8D-421A039B20CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
