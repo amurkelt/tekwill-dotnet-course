@@ -12,8 +12,7 @@
 
         public override void ShowDetails()
         {
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Type of flight: {TypeOfFlight}");
+            base.ShowDetails();            
             Console.WriteLine($"Vocabulary: {Vocabulary}");
         }
     }
