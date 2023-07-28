@@ -4,9 +4,7 @@
     {
         public static string GenerateUniqueCode(string prefix)
         {
-            var random = new Random();
-            int randomNumber = random.Next();
-            return $"{prefix}{randomNumber}";
+            return prefix + new Random().Next(0, 10000);
         }
     }
 }
