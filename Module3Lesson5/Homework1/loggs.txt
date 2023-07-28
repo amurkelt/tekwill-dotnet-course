@@ -1,0 +1,3 @@
+Log level - Information. 2023-07-28 17:59:58 Processing payment of 200 on this card: 1234567891234567
+Log level - Information. 2023-07-28 17:59:58 Processing refund of 100 with transaction id: 3523
+Log level - Error. 2023-07-28 17:59:58 Error when refunding payment of 696 with transaction id: 
